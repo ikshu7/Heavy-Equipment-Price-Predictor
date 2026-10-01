@@ -33,4 +33,3 @@ def enigneer_features(df):
     
     df['Is_Brand_New'] = (df['AssetAge'] == 0).astype(int)
     return df
-
